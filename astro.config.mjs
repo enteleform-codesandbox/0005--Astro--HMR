@@ -1,8 +1,9 @@
 // @ts-check
 
+import React from "@astrojs/react"
 
 export default /** @type {import("astro").AstroUserConfig} */ ({
-	renderers: [
-		"@astrojs/renderer-react",
+	integrations: [
+		React(),
 	],
 })
